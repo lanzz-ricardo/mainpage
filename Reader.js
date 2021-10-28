@@ -234,7 +234,7 @@ function initToolBarStructure() {
     const bar = document.createElement('div')
     bar.id = 'toolBar'
     bar.style.opacity = 1
-    window.reader.info.toolbarSize  = document.getElementById('exReader').getAttribute('toolbar-size') || Math.round(Math.min(window.screen.availWidth, window.screen.availHeight) / 36) * window.devicePixelRatio
+    window.reader.info.toolbarSize  = document.getElementById('exReader').getAttribute('toolbar-size') || Math.round(Math.min(window.screen.availWidth, window.screen.availHeight) / 12) * window.devicePixelRatio
     bar.style.width = window.reader.info.toolbarSize.toString() + 'pt'
     const top = document.createElement('div')
     const bottom = document.createElement('div')
