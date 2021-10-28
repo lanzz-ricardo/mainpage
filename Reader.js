@@ -247,15 +247,15 @@ function initToolBarStructure() {
     const reloadIcon = document.createElement('i')
     const originIcon = document.createElement('i')
     topIcon.className = 'iconfont icon-up'
-    topIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.1).toString() + 'pt'
+    topIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     bottomIcon.className = 'iconfont icon-down'
-    bottomIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.1).toString() + 'pt'
+    bottomIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     recoverIcon.className = 'iconfont icon-huifu'
-    recoverIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.1).toString() + 'pt'
+    recoverIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     reloadIcon.className = 'iconfont icon-change'
-    reloadIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.1).toString() + 'pt'
+    reloadIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     originIcon.className = 'iconfont icon-original'
-    originIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.1).toString() + 'pt'
+    originIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     top.appendChild(topIcon)
     bottom.appendChild(bottomIcon)
     recover.appendChild(recoverIcon)
