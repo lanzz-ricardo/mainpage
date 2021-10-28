@@ -234,7 +234,7 @@ function initToolBarStructure() {
     const bar = document.createElement('div')
     bar.id = 'toolBar'
     bar.style.opacity = 1
-    window.reader.info.toolbarSize  = document.getElementById('exReader').getAttribute('toolbar-size') || Math.round(Math.min(window.screen.availWidth, window.screen.availHeight) / 12) * window.devicePixelRatio
+    window.reader.info.toolbarSize  = document.getElementById('exReader').getAttribute('toolbar-size') || Math.round(Math.min(window.screen.availWidth, window.screen.availHeight) / 8) * window.devicePixelRatio
     bar.style.width = window.reader.info.toolbarSize.toString() + 'pt'
     const top = document.createElement('div')
     const bottom = document.createElement('div')
@@ -247,15 +247,15 @@ function initToolBarStructure() {
     const reloadIcon = document.createElement('i')
     const originIcon = document.createElement('i')
     topIcon.className = 'iconfont icon-up'
-    topIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.07).toString() + 'pt'
+    topIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     bottomIcon.className = 'iconfont icon-down'
-    bottomIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.07).toString() + 'pt'
+    bottomIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     recoverIcon.className = 'iconfont icon-huifu'
-    recoverIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.07).toString() + 'pt'
+    recoverIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     reloadIcon.className = 'iconfont icon-change'
-    reloadIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.07).toString() + 'pt'
+    reloadIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     originIcon.className = 'iconfont icon-original'
-    originIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.07).toString() + 'pt'
+    originIcon.style.fontSize = Math.round(window.reader.info.toolbarSize * 0.3).toString() + 'pt'
     top.appendChild(topIcon)
     bottom.appendChild(bottomIcon)
     recover.appendChild(recoverIcon)
